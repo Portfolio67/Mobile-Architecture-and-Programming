@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editProductNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:hint="Product Number"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-2dp"
+        android:hint="Product Name"
+        android:singleLine="true"
+        android:layout_below="@+id/editProductNumber"/>
+
+    <EditText
+        android:id="@+id/editProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-2dp"
+        android:hint="Product Description"
+        android:singleLine="true"
+        android:layout_below="@+id/editProductName"/>
+
+    <EditText
+        android:id="@+id/editProductDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:hint="Product Date"
+        android:singleLine="true"
+        android:layout_below="@+id/editProductDescription"/>/>
+
+</RelativeLayout>

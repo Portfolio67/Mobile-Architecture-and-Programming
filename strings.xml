@@ -1,0 +1,54 @@
+<resources>
+
+<!--    name of app in manifest-->
+<string name="app_name">Inventory Manager Plus</string>
+
+<!--    Home Page login and register in activity_main-->
+    <string name="enter_password">Enter your password</string>
+    <string name="enter_email">Enter your Email</string>
+<string name="user_login">User Login</string>
+<string name="user_register">User Register</string>
+
+
+<!--    popup box for registration in user_input_layout-->
+<string name="enter_name">Enter User Name as a Email</string>
+<string name="enter_pass">Enter User Password</string>
+<string name="user_password">User Password</string>
+<string name="user_name">User Name</string>
+<string name="create_user">Create User</string>
+<string name="login_user">Login User</string>
+
+<!--    Text Boxes and input for login user_input_layout-->
+<string name="login_enter_name">Enter Your id or email</string>
+<string name="login_enter_pass">Enter Your Password</string>
+<string name="login_options">If you have not registered click below</string>
+
+<!--    nav buttons  ProductsGrid, Sms, Dashboard-->
+<string name="nav_inventory">Inventory</string>
+<string name="nav_Dashboard">Dashboard</string>
+<string name="nav_SMS">SMS</string>
+
+
+
+    <!--    ProductsGrid header -->
+    <string name="header_grid_item">Item</string>
+    <string name="header_grid_description">Description</string>
+    <string name="header_grid_number">Number</string>
+    <string name="header_grid_date">Date</string>
+
+    <!--    ProductsGrid header -->
+    <string name="field_grid_item_row_1">Item</string>
+    <string name="field_grid_description_row_1">Description</string>
+    <string name="field_grid_number_row_1">Number</string>
+    <string name="field_grid_date_row_1">Date</string>
+
+    <!--    ProductsGrid add inventory on footer-->
+    <string name="add_inventory">+</string>
+
+
+    <!--    nav buttons  ProductsGrid, Sms, Dashboard-->
+<!--    <string name="nav_inventory">Inventory</string>-->
+<!--    <string name="nav_Dashboard">Dashboard</string>-->
+<!--    <string name="nav_SMS">SMS</string>-->
+
+</resources>

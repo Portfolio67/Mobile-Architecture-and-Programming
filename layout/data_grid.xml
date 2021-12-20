@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="633dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/text_dashboard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#ADD8E6"
+            android:padding="8dip" >
+
+            <ImageButton
+                android:id="@+id/pencilButton0"
+                android:layout_width="21dp"
+                android:layout_height="match_parent"
+                android:visibility="invisible"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <TextView
+                android:id="@+id/headerView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_item"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#3F51B5"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/HeaderDescriptionView"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_description"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/HeaderNumberView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_number"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textColor="#3F51B5"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/garbageButton0"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#f5f5f5"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton1"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+
+                app:srcCompat="@android:drawable/ic_menu_edit"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/ItemView1"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView1"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView1"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView1"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton1"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#ffe5b4"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton2"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+
+            <TextView
+                android:id="@+id/ItemView2"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView2"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView2"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView2"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton2"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#f5f5f5"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton3"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <TextView
+                android:id="@+id/ItemView3"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView3"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView3"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView3"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton3"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#ffe5b4"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton4"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <TextView
+                android:id="@+id/ItemView4"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView4"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView4"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView4"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton4"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#f5f5f5"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton5"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <TextView
+                android:id="@+id/ItemView5"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView5"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView5"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView5"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton5"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#ffe5b4"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton6"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <TextView
+                android:id="@+id/ItemView6"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView6"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView6"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView6"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton6"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:padding="8dip"
+            android:background="#f5f5f5"
+            >
+
+            <ImageButton
+                android:id="@+id/pencilButton7"
+                android:layout_width="21dp"
+                android:layout_height="50dp"
+                app:srcCompat="@android:drawable/ic_menu_edit" />
+
+            <TextView
+                android:id="@+id/ItemView7"
+                android:layout_width="68dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_item_row_1"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DescriptionView7"
+                android:layout_width="126dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_description_row_1"
+                android:textAlignment="textStart"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/NumberView7"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:text="@string/field_grid_number_row_1"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/DateView7"
+                android:layout_width="65dp"
+                android:layout_height="match_parent"
+                android:text="@string/header_grid_date"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageButton
+                android:id="@+id/garbageButton7"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_inventory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="Refresh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_SMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/nav_SMS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button_inventory" />
+
+    <Button
+        android:id="@+id/add_inventory"
+        android:layout_width="86dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/add_inventory"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/text_dashboard" />
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floatingActionButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_marginBottom="24dp"-->
+<!--        android:clickable="true"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:srcCompat="@android:drawable/ic_input_add" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
