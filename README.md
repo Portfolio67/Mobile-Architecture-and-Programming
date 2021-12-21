@@ -1,14 +1,13 @@
 # Mobile-Architecture-and-Programming
 
 
-<!doctype html>
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Simple_Android_App_SFlaten</title>
+
 </head>
 <body>
-<h1 id="readme-android-app-development"><strong>README:</strong> Android App Development</h1>
+<h1 id="readme-android-app-development"><strong>README:</strong> Android App Development by Shane Flaten</h1>
 
 <p>Shane Flaten</p><div class="TOC">
 
@@ -47,6 +46,10 @@
 <h1 id="ui-screens-and-features-controller-and-view"><strong>Ui</strong> **screens and features <strong>“Controller and View”</strong></h1>
 
 <p>The navigation will be on the bottom reachable by the thumbs. This will be the footer of the app which has evenly placed buttons that are large enough to meet the android guidelines in the android helper. The app would be very predictable with easy to see navigation with common icons and simple typography. It would be no surprises with the change of states of each component. There will also be a garbage can icon to the right in case something needs to be deleted. They will be a floating circle with a + at the bottom right so that the warehouse worker can easily click it with their thumb and begin the process of populating a form that pops up. </p>
+<img width="402" alt="Screen Shot 2021-12-19 at 9 56 43 PM" src="https://user-images.githubusercontent.com/75280131/146925467-81435e48-6010-47e2-99ec-a7b993e46f9e.png">
+<img width="428" alt="Screen Shot 2021-12-19 at 9 42 14 PM" src="https://user-images.githubusercontent.com/75280131/146925496-be08d29b-bc5d-4c47-90d4-55ccc1c8a7e5.png"><img width="360" alt="Screen Shot 2021-12-17 at 8 10 33 AM" src="https://user-images.githubusercontent.com/75280131/146925549-ae7bb177-548f-4c20-bcb4-1bebd7f9f4a6.png">
+
+<img width="359" alt="Screen Shot 2021-12-17 at 8 10 16 AM" src="https://user-images.githubusercontent.com/75280131/146925567-e0d76cca-1ba0-4e37-8244-e4efd9a4644b.png">
 
 <p>Everything used basic material user interface items. Icons will be recognizable, and the colors will not be confusing to the User. For every action there should be a way to undo an action or in this case a toast icon pops up. </p>
 
