@@ -63,10 +63,38 @@
 <p>The function of the app begins at the login. When a user creates create account by registering this populates a database.This whole App will use the model view control including with the login. The app should save the state in case of switching to another app or changing to portrait mode, but not utilized in this project. The log is the password text widget to hide that uses input.</p>
 
 <p>Android has libraries and functions to ensure that if an email has been entered that it has the correct format, this project strings were used. </p>
+	
+	<img width="467" alt="Screen Shot 2021-12-21 at 5 57 22 AM" src="https://user-images.githubusercontent.com/75280131/146928951-1852be26-c9ba-43c9-9d42-7f55b5a00b63.png">
+<img width="522" alt="Screen Shot 2021-12-21 at 5 58 21 AM" src="https://user-images.githubusercontent.com/75280131/146928972-fc33b635-955e-43e3-9ee9-ad112b931371.png">
+<img width="522" alt="Screen Shot 2021-12-21 at 6 00 48 AM" src="https://user-images.githubusercontent.com/75280131/146928999-76311b2d-8a68-4a6a-8421-a08f55aa5462.png">
+
+<img width="522" alt="Screen Shot 2021-12-21 at 5 58 33 AM" src="https://user-images.githubusercontent.com/75280131/146928983-fb2f19e4-29e0-43a7-8c82-5bd7f17e4962.png">
+<img width="406" alt="Screen Shot 2021-12-21 at 6 28 46 AM" src="https://user-images.githubusercontent.com/75280131/146930364-93559a20-57ff-401f-a7e8-535f09c03d29.png">
+<img width="398" alt="Screen Shot 2021-12-21 at 6 28 53 AM" src="https://user-images.githubusercontent.com/75280131/146930371-1a14c33a-e08f-4076-a2c8-2183f8dc09cd.png">
+<img width="412" alt="Screen Shot 2021-12-21 at 6 29 02 AM" src="https://user-images.githubusercontent.com/75280131/146930388-2b4d2540-22d2-4780-a08b-2e74f96c1c85.png">
 
 <h1 id="code-examples"><strong>Code Examples.</strong></h1>
+	<img width="1247" alt="Screen Shot 2021-12-21 at 6 04 40 AM" src="https://user-images.githubusercontent.com/75280131/146929042-573b27ed-fae5-44a6-b267-f94c8769b6ff.png">
+<img width="1221" alt="Screen Shot 2021-12-21 at 6 09 50 AM" src="https://user-images.githubusercontent.com/75280131/146929099-5d6084d4-0cdd-4e18-b3ae-e3d177898901.png">
+
+<img width="973" alt="Screen Shot 2021-12-19 at 9 12 38 PM" src="https://user-images.githubusercontent.com/75280131/146926027-9103befa-6edf-448f-a670-646f5a569e93.png">
+<img width="1201" alt="Screen Shot 2021-12-21 at 6 09 33 AM" src="https://user-images.githubusercontent.com/75280131/146929114-80024dbc-65a7-49bf-a590-b116187c3fad.png">
+<img width="899" alt="Screen Shot 2021-12-21 at 6 08 55 AM" src="https://user-images.githubusercontent.com/75280131/146929124-61a012e0-ab3e-4a0b-a39d-09998346b7d6.png">
+<img width="1461" alt="Screen Shot 2021-12-21 at 6 08 00 AM" src="https://user-images.githubusercontent.com/75280131/146929177-e5aae995-40b0-45de-867b-753a87031def.png">
+<img width="1185" alt="Screen Shot 2021-12-21 at 6 08 29 AM" src="https://user-images.githubusercontent.com/75280131/146929192-4d14c110-c81c-496d-b1ec-569db4c5f1cf.png">
+<img width="1027" alt="Screen Shot 2021-12-21 at 6 07 02 AM" src="https://user-images.githubusercontent.com/75280131/146929214-e3130064-3e42-4c8c-8923-0c50106d10a8.png">
+<img width="987" alt="Screen Shot 2021-12-21 at 6 06 16 AM" src="https://user-images.githubusercontent.com/75280131/146929230-beaa02c2-6d60-460d-b842-9d25c1f49af4.png">
+<img width="912" alt="Screen Shot 2021-12-21 at 6 06 07 AM" src="https://user-images.githubusercontent.com/75280131/146929235-33b37708-c81e-4c07-8e8c-35f87c2d77cc.png">
+<img width="897" alt="Screen Shot 2021-12-21 at 6 05 51 AM" src="https://user-images.githubusercontent.com/75280131/146929251-48caa085-5714-4bb6-aa57-6a8208dca257.png">
+<img width="1099" alt="Screen Shot 2021-12-21 at 6 05 31 AM" src="https://user-images.githubusercontent.com/75280131/146929262-ff528178-6d67-494d-b3b0-1c0a8160c67a.png">
+<img width="762" alt="Screen Shot 2021-12-21 at 6 29 24 AM" src="https://user-images.githubusercontent.com/75280131/146930207-5a245765-e712-4b01-9807-de71f19707a1.png">
 
 <h1 id="testing"><strong>Testing</strong></h1>
+<img width="1006" alt="Screen Shot 2021-12-21 at 6 23 41 AM" src="https://user-images.githubusercontent.com/75280131/146930255-2af3e44e-9e37-414f-af11-4fd97c769637.png">
+<img width="706" alt="Screen Shot 2021-12-21 at 6 25 32 AM" src="https://user-images.githubusercontent.com/75280131/146930263-57f77f5d-076b-4b7e-bc00-bfa2a02dec4b.png">
+<img width="1391" alt="Screen Shot 2021-12-21 at 6 26 36 AM" src="https://user-images.githubusercontent.com/75280131/146930275-65ead5a3-220c-452b-b6f7-f9ce3d916f53.png">
+<img width="1386" alt="Screen Shot 2021-12-21 at 6 28 09 AM" src="https://user-images.githubusercontent.com/75280131/146930292-a34b244e-7c19-4f1e-a02a-bee86306597b.pn<img width="1367" alt="Screen Shot 2021-12-21 at 6 28 31 AM" src="https://user-images.githubusercontent.com/75280131/146930300-fdf12041-be62-43e2-b94e-95e5a8d8a73a.png">
+g">
 
 <p>Testing can be done with the De-bugger, logs and running in the simulator</p>
 </body>
