@@ -93,8 +93,8 @@
 <img width="1006" alt="Screen Shot 2021-12-21 at 6 23 41 AM" src="https://user-images.githubusercontent.com/75280131/146930255-2af3e44e-9e37-414f-af11-4fd97c769637.png">
 <img width="706" alt="Screen Shot 2021-12-21 at 6 25 32 AM" src="https://user-images.githubusercontent.com/75280131/146930263-57f77f5d-076b-4b7e-bc00-bfa2a02dec4b.png">
 <img width="1391" alt="Screen Shot 2021-12-21 at 6 26 36 AM" src="https://user-images.githubusercontent.com/75280131/146930275-65ead5a3-220c-452b-b6f7-f9ce3d916f53.png">
-<img width="1386" alt="Screen Shot 2021-12-21 at 6 28 09 AM" src="https://user-images.githubusercontent.com/75280131/146930292-a34b244e-7c19-4f1e-a02a-bee86306597b.pn<img width="1367" alt="Screen Shot 2021-12-21 at 6 28 31 AM" src="https://user-images.githubusercontent.com/75280131/146930300-fdf12041-be62-43e2-b94e-95e5a8d8a73a.png">
-g">
+
+<img width="1367" alt="Screen Shot 2021-12-21 at 6 28 31 AM" src="https://user-images.githubusercontent.com/75280131/146930640-f718f79a-bdb9-46d1-8974-f0d1d1e52352.png">
 
 <p>Testing can be done with the De-bugger, logs and running in the simulator</p>
 </body>
